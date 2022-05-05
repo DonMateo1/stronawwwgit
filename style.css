@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SCENA PIERWSZA */
+
+.nawigacja {
+    background-image: url(https://i.postimg.cc/fyqtsRDb/tlo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.nawigacjaL li a {
+    text-decoration: none;
+    color: #ffd32a;
+    font-family: 'Roboto';
+    padding-top: 200px;
+    font-weight: bold;
+}
+
+.nawigacjaL li a:hover {
+    color: #ffd32a;
+}
+
+.nawigacja ul {
+    list-style-type: none;
+}
+
+.nawigacjaL {
+    margin: 10px 10px 0px 0px;
+
+
+}
+
+.tytul {
+    color: #ffd32a;
+    padding-left: 50px;
+    font-family: 'Dancing Script';
+    margin-top: 10px;
+}
+
+.nawigacja h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding: 100px 0px 30px 0px;
+
+}
+
+.nawigacja .meet {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nawigacja .btn {
+    text-decoration: none;
+    border: 2px solid #ffd32a;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 160px;
+    font: bold 12px 'Roboto';
+    color: white;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ffd32a;
+    letter-spacing: 2px;
+    left: 44%;
+}
+
+.btn:hover {
+    color: #fc5c65;
+}
+
+/* SERVIS */
+.tytul2 {
+    text-align: center;
+    color: grey;
+    font-family: 'Playfair Display';
+    margin-top: 100px;
+    margin-bottom: 150px;
+    font-size: 20px;
+}
+
+.tytul2 h1 {
+    color: black;
+    font-family: 'Rradio Canada', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.commerce .material-symbols-outlined {
+    color: #ffd32a;
+    margin-left: 170px;
+    font-size: 70px;
+}
+
+.commerce h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Radio Canada';
+}
+
+.commerce p {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.responsive .material-symbols-outlined {
+    color: #ffd32a;
+    margin-left: 170px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.responsive h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Radio Canada';
+}
+
+.responsive p {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 20px;
+
+}
+
+.security .material-symbols-outlined {
+    color: #ffd32a;
+    margin-left: 170px;
+    font-size: 70px;
+}
+
+.security h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Radio Canada';
+}
+
+.security p {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    margin-top: 200px;
+}
+
+.tytul3 {
+    text-align: center;
+    color: grey;
+    font-family: 'Playfair Display';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.tytul3 h1 {
+    color: black;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 700;
+}
+
+.clever img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 20px;
+}
+
+.smart img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.ebony img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.vinyl img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 20px;
+}
+
+.treehouse img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.burned img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.ebony h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Radio Canada';
+}
+
+.ebony p {
+    color: #778ca3;
+}
+
+.clever h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Radio Canada';
+}
+
+.clever p {
+    color: #778ca3;
+}
+
+.smart h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Radio Canada';
+}
+
+.smart p {
+    color: #778ca3;
+}
+
+/*************************************************************************/
+.vinyl h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Radio Canada';
+}
+
+.vinyl p {
+    color: #778ca3;
+}
+
+.treehouse h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Radio Canada';
+}
+
+.treehouse p {
+    color: #778ca3;
+}
+
+.burned h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Radio Canada';
+}
+
+.burned p {
+    color: #778ca3;
+}
+
+/* STOPKA */
+.stopka {
+    margin-top: 200px;
+}
+
+.stopson p {
+    margin-left: 80px;
+}
+
+.ikony i {
+    font-size: 30px;
+    color: black;
+    margin: 0 10px 0 10px;
+}
+
+.ikony i:hover {
+    cursor: pointer;
+
+}
